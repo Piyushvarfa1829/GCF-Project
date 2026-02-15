@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url('https://media.istockphoto.com/id/1145785280/vector/abstract-geometric-shape-background.jpg?s=612x612&w=0&k=20&c=0GQmyKOvHH0w156nuBptK1Mu10Ml5Qx60OX6agjniEo=');
+            background-size: cover;   
+            height: 100vh;  
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 95%;
+            height: 95%;
+            background: rgba(57, 2, 109, 0.8);
+            
+            
+            
+        }
+       
+       nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        text-transform: uppercase;
+        position: relative;
+       }
+       nav a::before{
+        content: "";
+        width: 0%;
+        border-bottom: 2px solid orange;
+        position: absolute;
+        bottom: 0;
+        display: block;
+       }
+       nav a:hover:before{
+        width: 80%;
+        transition: 1s linear;
+       }
+       .text{
+        max-width: 450px;
+        color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+       }
+       .text h1{
+        font-size: 50px;
+        padding-left: 10px;
+        border-left: 5px solid orange;
+       }
+       .text p{
+        margin: 20px 0px;
+        font-size: 20px;
+        text-align: justify;
+       }
+       button{
+        padding: 10px;
+        background: transparent;
+        border: 1px solid orange;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+
+       }
+       .im{
+        width: 400px;
+        margin-top: -350px;
+        margin-left: 500px;
+        
+
+        border-radius: 10px;
+        display: flex;
+        
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLm7XIEeYPCt0S7kwp-XohfNvKtzJq-w_GsQ&s" alt="Portfolio image" width="100px"></a>
+        <a href="">Works</a>
+        <a href="">Contacts</a>
+     </nav>
+     <div class="text">
+        <h1>Piyush <br>
+            Varfa
+           
+        </h1>
+        <p>Just A Learning Student. At PU</p>
+        <button>Read more</button> <br>
+        <br>
+        <br>
+
+
+        <a href="https://www.instagram.com/piyush_varfa_/"><img src="https://i.pinimg.com/736x/bd/12/0f/bd120f6e18e146713ccd0cce4e3ec0f2.jpg" alt="" height="20px" width="20px"></a>
+        <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="" height="20px" width="20px">
+         
+        <img src="
+        https://lh3.googleusercontent.com/pw/AP1GczOX2Y91MO_g0gCWvFM8NufLelClF762mt1DCOJ1rJk7nLMBFI1t-ZUbRoVbXHBy4d5HMm5lorL9QWQAZJdE58EO68JM4AyUZdpymZtUazqvyjjy4xHwSjvQQTfTM2lx_H73L8-sQ3OzH8DNsfnJQsAQ=w1110-h970-s-no-gm?authuser=0"  class="im" height="400px" width="400px">
+     
+     </div>
+    
+    </div>
+</body>
+</html>
